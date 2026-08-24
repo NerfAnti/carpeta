@@ -1,0 +1,7 @@
+Primero, descargamos el archivo que queremos hacer en .py (tener instalado python), despues de descargarlo, abrimos la carpeta donde esta guardado y en la barra del repositorio, escribimos "CMD"
+Una ves se haya abierto el CMD donde esta el archivo, ejecutamos "pyinstaller --onefile (nombre del archivo)" y le damos enter
+Cuando termine la instalacion y todo fue correcto, se va a crear una carpeta llamada Dist, en esa carpeta se encontrara el ejecutable ya en formato .exe
+
+ATENCION!
+SI AL FINALIZAR EL EJECUTABLE SE CIERRA INESPERADAMENTE, INCLUIR EN EL CODIGO DEL ARCHIVO EL SIGUIENTE COMANDO "input("\n Presiona Enter para salir...")" AL FINAL DEL CODIGO.
+Y VOLVER HACER EL PASO A PASO CON EL CODIGO ACTUALIZADO.
